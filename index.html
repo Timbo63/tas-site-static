@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PrismHealth.ai — Predictive Revenue & Risk Signals for Med‑Device Teams</title>
+  <meta name="description" content="PrismHealth.ai is an MVP that turns sales + clinical signals into early risk alerts and confident revenue forecasts for orthopedic & bracing companies." />
+  <meta property="og:title" content="PrismHealth.ai — Predictive Revenue & Risk Signals" />
+  <meta property="og:description" content="Early risk alerts. Sharper forecasts. Built for med‑device go‑to‑market teams." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.ico" />
+  <!-- Tailwind CDN for rapid MVP (replace with compiled CSS later) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Light noise background */
+    body { background: radial-gradient(1000px 600px at 10% -10%, #eef2ff, transparent),
+                         radial-gradient(1200px 800px at 110% 10%, #f0fdf4, transparent); }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.65); }
+  </style>
+</head>
+<body class="antialiased text-slate-800">
+  <!-- Header -->
+  <header class="max-w-6xl mx-auto px-4 py-5 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 via-sky-500 to-emerald-400"></div>
+      <span class="font-semibold tracking-tight text-lg">PrismHealth.ai</span>
+    </div>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="#how" class="hover:opacity-70">How it works</a>
+      <a href="#features" class="hover:opacity-70">Features</a>
+      <a href="#mvp" class="hover:opacity-70">MVP</a>
+      <a href="#contact" class="hover:opacity-70">Contact</a>
+    </nav>
+    <a href="#contact" class="inline-flex items-center rounded-xl border border-slate-300 px-3.5 py-2 text-sm hover:bg-white/70">Get in touch</a>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-semibold tracking-tight">
+          Early risk alerts & confident revenue forecasts —
+          <span class="bg-gradient-to-r from-indigo-600 via-sky-600 to-emerald-600 bg-clip-text text-transparent">for med‑device teams</span>
+        </h1>
+        <p class="mt-5 text-slate-600 md:text-lg">PrismHealth.ai turns sales, clinical, and market signals into <span class="font-medium">leading indicators</span> so commercial leaders can spot risk early, act faster, and forecast better.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#contact" class="inline-flex items-center rounded-xl bg-slate-900 text-white px-5 py-3 text-sm md:text-base hover:opacity-90">Request demo access</a>
+          <a href="#mvp" class="inline-flex items-center rounded-xl border border-slate-300 px-5 py-3 text-sm md:text-base hover:bg-white/70">See MVP status</a>
+        </div>
+        <p class="mt-4 text-xs text-slate-500">Founder-led MVP • No cost pilot conversations welcome</p>
+      </div>
+      <div class="glass rounded-2xl p-5 md:p-8 shadow-xl">
+        <div class="grid grid-cols-2 gap-4 text-sm">
+          <div class="p-4 rounded-xl bg-white shadow"><div class="text-slate-500 text-xs">Forecast</div><div class="text-2xl font-semibold">+12.4%</div><div class="text-emerald-600 text-xs">Confidence ↑</div></div>
+          <div class="p-4 rounded-xl bg-white shadow"><div class="text-slate-500 text-xs">At‑Risk Deals</div><div class="text-2xl font-semibold">17</div><div class="text-rose-600 text-xs">Escalate</div></div>
+          <div class="p-4 rounded-xl bg-white shadow"><div class="text-slate-500 text-xs">Top Drivers</div><ul class="list-disc pl-4 text-slate-700 text-xs space-y-1"><li>Clinical outcomes trend</li><li>KOL engagement</li><li>Coverage/reimbursement</li></ul></div>
+          <div class="p-4 rounded-xl bg-white shadow"><div class="text-slate-500 text-xs">Next Best Action</div><ul class="list-disc pl-4 text-slate-700 text-xs space-y-1"><li>Schedule site in‑service</li><li>Surface peer evidence</li><li>Verify formulary status</li></ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" class="max-w-6xl mx-auto px-4 py-14">
+    <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">How it works</h2>
+    <div class="mt-6 grid md:grid-cols-3 gap-6 text-sm">
+      <div class="p-5 rounded-2xl bg-white shadow">
+        <div class="text-slate-500 font-medium">1) Upload your flat file</div>
+        <p class="mt-2 text-slate-600">Start with a CSV export of pipeline + account metrics (no PHI). The MVP ingests common fields and normalizes them.</p>
+      </div>
+      <div class="p-5 rounded-2xl bg-white shadow">
+        <div class="text-slate-500 font-medium">2) Generate indicators</div>
+        <p class="mt-2 text-slate-600">We compute leading indicators and a simple risk score using transparent rules while we iterate toward ML models.</p>
+      </div>
+      <div class="p-5 rounded-2xl bg-white shadow">
+        <div class="text-slate-500 font-medium">3) Act on insights</div>
+        <p class="mt-2 text-slate-600">See at‑risk deals, top drivers, and recommended next steps that align sales + clinical action.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="max-w-6xl mx-auto px-4 py-14">
+    <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">MVP features</h2>
+    <div class="mt-6 grid md:grid-cols-2 gap-6 text-sm">
+      <div class="p-5 rounded-2xl bg-white shadow">
+        <ul class="list-disc pl-5 space-y-2 text-slate-700">
+          <li>CSV upload → risk score + contributing factors</li>
+          <li>Deal/Account heatmap of leading indicators</li>
+          <li>Simple, readable logic today; ML roadmap tomorrow</li>
+          <li>Zero PHI by design; works with synthetic or anonymized data</li>
+        </ul>
+      </div>
+      <div class="p-5 rounded-2xl bg-white shadow">
+        <ul class="list-disc pl-5 space-y-2 text-slate-700">
+          <li>Use-case focus: orthopedics & bracing (expandable)</li>
+          <li>Founder-led onboarding + no-cost pilot conversations</li>
+          <li>Roadmap: what‑if scenarios, recommendations, API</li>
+          <li>Deployment targets: web app (Vercel) + secure invite links</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- MVP status -->
+  <section id="mvp" class="max-w-6xl mx-auto px-4 py-14">
+    <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">Current MVP status</h2>
+    <div class="mt-6 grid md:grid-cols-3 gap-6 text-sm">
+      <div class="p-5 rounded-2xl bg-white shadow">
+        <div class="text-slate-500 font-medium">Backend (FastAPI)</div>
+        <p class="mt-2 text-slate-600">/predict endpoint accepts CSV and returns risk + drivers. Iterating on rules → ML.</p>
+      </div>
+      <div class="p-5 rounded-2xl bg-white shadow">
+        <div class="text-slate-500 font-medium">Frontend (React)</div>
+        <p class="mt-2 text-slate-600">Basic UI scaffold; file upload + results view in progress.</p>
+      </div>
+      <div class="p-5 rounded-2xl bg-white shadow">
+        <div class="text-slate-500 font-medium">Pilot</div>
+        <p class="mt-2 text-slate-600">Seeking 1–2 no‑cost pilot conversations to validate indicators & workflow.</p>
+      </div>
+    </div>
+    <p class="mt-4 text-xs text-slate-500">Last updated: <span id="lastUpdated"></span></p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-6xl mx-auto px-4 py-14">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">Get in touch</h2>
+        <p class="mt-3 text-slate-600">Interested in a quick demo or sharing a sample CSV export? Reach out below. Founder: Timothy Sharp.</p>
+        <div class="mt-5 flex flex-wrap gap-3">
+          <a href="mailto:Prismhealth.ai@outlook.com" class="inline-flex items-center rounded-xl bg-slate-900 text-white px-5 py-3 text-sm md:text-base hover:opacity-90">Email us</a>
+          <a href="#" class="inline-flex items-center rounded-xl border border-slate-300 px-5 py-3 text-sm md:text-base hover:bg-white/70" onclick="alert('Replace the Formspree action URL in the HTML before using the form.'); return false;">Use the form →</a>
+        </div>
+      </div>
+      <form class="p-6 rounded-2xl bg-white shadow space-y-4" method="POST" action="https://formspree.io/f/yourFormIdHere">
+        <div>
+          <label class="block text-sm text-slate-600">Name</label>
+          <input required name="name" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" placeholder="Jane Smith" />
+        </div>
+        <div>
+          <label class="block text-sm text-slate-600">Work email</label>
+          <input required type="email" name="email" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" placeholder="jane@company.com" />
+        </div>
+        <div>
+          <label class="block text-sm text-slate-600">Message</label>
+          <textarea required name="message" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" rows="4" placeholder="Tell us a bit about your team & data export…"></textarea>
+        </div>
+        <button class="w-full rounded-xl bg-slate-900 text-white px-5 py-3 text-sm md:text-base hover:opacity-90" type="submit">Send</button>
+        <p class="text-xs text-slate-500">We only collect contact details you submit. No tracking cookies.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="max-w-6xl mx-auto px-4 py-10 text-sm text-slate-500">
+    <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
+      <div>© <span id="year"></span> TAS Business Solutions LLC. All rights reserved.</div>
+      <div class="space-x-4">
+        <a href="#privacy" class="hover:opacity-70">Privacy</a>
+        <a href="#terms" class="hover:opacity-70">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Minimal in‑page terms/privacy for MVP -->
+  <section id="privacy" class="max-w-6xl mx-auto px-4 pb-6 text-xs text-slate-500">
+    <h3 class="font-semibold text-slate-700">Privacy (MVP)</h3>
+    <p class="mt-1">We do not collect personal health information. Demo uploads should be synthetic or anonymized. Contact details submitted via the form are used solely to coordinate a demo or pilot.</p>
+  </section>
+  <section id="terms" class="max-w-6xl mx-auto px-4 pb-16 text-xs text-slate-500">
+    <h3 class="font-semibold text-slate-700">Terms (MVP)</h3>
+    <p class="mt-1">This is an MVP in active development. Outputs are experimental and for evaluation only, not clinical or financial advice.</p>
+  </section>
+
+  <script>
+    // Set dynamic dates
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString();
+  </script>
+  <!-- (Optional) Add Plausible later for privacy‑friendly analytics -->
+  <!-- <script defer data-domain="prismhealth.ai" src="https://plausible.io/js/script.js"></script> -->
+</body>
+</html>
+
